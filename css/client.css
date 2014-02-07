@@ -1,0 +1,78 @@
+
+.btn{
+  height:200px;
+  width:200px;
+  border-radius:200px;
+  float:left;
+  margin-top:140px;
+  text-align:center;
+  color:#FFF;
+  font-size:72px;
+}
+
+body{
+ /* width:100%;
+  height:800px;
+  background-color:blue;*/
+}
+#fade_pregunta{
+	display: none;
+	width:100%;
+  	height:800px;
+  	z-index: 10000;
+  	position: absolute;
+	top: 0px;
+	left: 0px;
+	float: left;
+	background-color: rgba(0,0,0,.9);
+	filter: progid:DXImageTransform.Microsoft.gradient(gradientype=0,startColorstr='#11000000', endColorstr='#11000000');
+	-ms-filter: progid:DXImageTransform.Microsoft.gradient(gradientype=0,startColorstr='#11000000', endColorstr='#11000000');
+}
+#pregunta{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	padding-bottom: 15px;
+	width: 300px;
+	background-color: #CCCCCC;
+}
+.opcion{
+	width: 90%;
+	margin-left: 5%;
+	height: 30px;
+	background-color: #ffffff;
+	text-align: center;
+	vertical-align: middle;
+	border: solid 1px #000000;
+	margin-top: 15px;
+	cursor: pointer;
+	padding-top: 5px;
+	}
+
+.opcion:active,.opcion:hover {
+     background-color:blue;
+     color:#ffffff;
+}
+
+#fade_status{
+
+  width:100%;
+    height:800px;
+    z-index: 10000;
+    position: absolute;
+  top: 0px;
+  left: 0px;
+  float: left;
+  background-color: rgba(0,0,0,.9);
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientype=0,startColorstr='#11000000', endColorstr='#11000000');
+  -ms-filter: progid:DXImageTransform.Microsoft.gradient(gradientype=0,startColorstr='#11000000', endColorstr='#11000000');
+}
+#status{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+  padding-bottom: 15px;
+  width: 200px;
+  color: #ffffff;
+  text-align: center;
+}

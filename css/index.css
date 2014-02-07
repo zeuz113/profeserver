@@ -1,0 +1,23 @@
+
+#field{
+  width:500px;
+  height:500px;
+}
+
+.controlled{
+  width:200px;
+  height:200px;
+  position:absolute;
+  top:0px;
+  left:0px;
+  background-color:blue;
+  color:#fff;
+}
+#pregunta{
+  z-index: 1000;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  width: 200px;
+  height: 50px;
+}

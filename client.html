@@ -1,0 +1,48 @@
+<!doctype html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
+  <title>Profe Mundialista Aguila</title>
+  <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+  <script src="socket.io/socket.io.js"></script>
+  <script src="cordova-2.0.0.js"></script>  
+  <script type="text/javascript" src="rmm/responsivemobilemenu.js"></script>
+  
+  <link rel="stylesheet" href="rmm/responsivemobilemenu.css" type="text/css"/>
+  <link rel="stylesheet" href="css/client.css" />
+
+  <!--<link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.css" />-->
+  <!--<script src="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.js"></script>-->
+</head>
+<body>  
+  <div id="fade_status">
+      <div id="status"><img src="imgs/loader.gif"><br>Cargando</div>
+  </div>
+	<div id="fade_pregunta">
+		<div id="pregunta">
+			<div id="txt_preg"></div>
+			<div id="opciones">
+				<div class="opcion" id="op1" onclick="resp(1)"></div>
+				<div class="opcion" id="op2" onclick="resp(2)"></div>
+				<div class="opcion" id="op3" onclick="resp(3)"></div>
+				<div class="opcion" id="op4" onclick="resp(4)"></div>
+			</div>
+
+		</div>
+	</div>
+ 
+  <div class="rmm">
+      <ul>
+        <li><a href='#home'>Home</a></li>
+        <li><a href='#about-me'>About me</a></li>
+        <li><a href='#gallery'>Gallery</a></li>
+        <li><a href='#blog'>Blog</a></li>
+        <li><a href='#links'>Links</a></li>
+        <li><a href='#' onclick="send_test()">test socket.io</a></li> 
+      </ul>
+  </div>
+   <img src="imgs/ic_launcher.png">
+
+
+   <script type="text/javascript" src="js/clientfunc.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!doctype html>
+<head>
+<title>Admin - Profe Mundialista</title>
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.css" />
+<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.js"></script>
+<script src="socket.io/socket.io.js"></script>
+<script src="js/adminfunc.js"></script>
+<link rel="stylesheet" href="css/index.css" />
+</head>
+<body>
+  <img src="imgs/ic_launcher.png">
+<div id="pregunta">
+    <input type="text" id="txpreg">
+    <input type="button" Value="enviar" id="btn_send" onclick="enviapreg()">
+</div>
+Index<br />
+Message: <div id='display'></div>
+<div id='field'></div>
+Numero de usuarios Conectados: <div id="usercount"></div>
+</body>
+</html>
